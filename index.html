@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Piyoros Vephula IoT Class Final</title>
+
+		<meta name="description" content="Final Project">
+		<meta name="author" content="Piyoros">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Idea for the Final</h2>
+					<ul>
+						<li class="fragment">Make something that will exist after class</li>
+						<li class="fragment">Can solve some problems</li>
+						<li class="fragment">Can be a good funiture</li>
+						<li class="fragment">Working wirelessly</li>
+					</ul>
+				</section>
+
+				<section>
+					<style>
+						.box{
+							background-color: #4AC;
+						}
+						.txblack{
+							color: #000;
+						}
+					</style>
+					<div class="box">
+						<br><h3>CLOCK</h3><p class="txblack">liquid display</p><br>
+					</div>
+					<ul>
+						<li class="fragment">Range sensor</li>
+							<ul>
+								<li class="fragment">sense waving hand to light the display</li>
+							</ul>
+						<li class="fragment">Photo resistor</li>
+							<ul>
+								<li class="fragment">when turn off light then light the display</li>
+							</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Bart API</h2>
+					<p class="fragment">
+						The clock will also display/alarm/remind when next train is approaching.
+					</p>
+				</section>
+
+				<section>
+					<h2>The clock has 3 modes</h2>
+					<ul>
+						<li class="fragment">Clock only</li>
+						<li class="fragment">Clock + Bart</li>
+						<li class="fragment">Bart only</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Browser/Server</h2>
+					<ul>
+						<li class="fragment">Choose a favorite bart route</li>
+						<li class="fragment">Also display a clock</li>
+						<li class="fragment">When the hardware clock sense the range of user</li>
+						<ul>
+							<li class="fragment">far - large clock</li>
+							<li class="fragment">near - small clock</li>
+						</ul>
+						<li class="fragment">Animation when bart is coming</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Inspiration</h2>
+					<img src="images/threelayers.jpg">
+				</section>
+
+				<section>
+					<h2>Inspiration</h2>
+					<img src="images/foureyes.jpg">
+				</section>
+
+				<section>
+					<h2>Conclusion</h2>
+					<p>----------------</p>
+					<h3>Clock(wireless & sensors)</h3>
+					<h3>Bart API</h3>
+					<h3>Browser</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
