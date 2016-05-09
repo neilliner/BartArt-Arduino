@@ -7,5 +7,5 @@ Inspired by Camille Utterback’s art work, Entangled, and Alan Rath’s Four Ey
 
 HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 
-### Special Thanks to
-Mark Hellar
+### Special Thanks
+[Mark Hellar](https://github.com/mhellar)
