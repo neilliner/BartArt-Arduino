@@ -30,7 +30,7 @@ HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 
 ## No Arduino Version
 To make it easier to experience the project, I made a version that doesn't need to connect to Arduino. Check it out.
-[No Arduino Version](#)
+[No Arduino Version](https://github.com/neilliner/BartArt-NoBoard)
 
 ### Special Thanks
 [Mark Hellar](https://github.com/mhellar)
