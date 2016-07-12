@@ -16,6 +16,9 @@ HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 6. Open your browser and type `localhost:3000` then hit return.
 7. Enjoy!
 
+![BartArt](http://www.neilsite.com/bandpay/sites/default/files/bartart1.jpg "BartArt")
+![BartArt](http://www.neilsite.com/bandpay/sites/default/files/bartart2.jpg "BartArt")
+![BartArt](http://www.neilsite.com/bandpay/sites/default/files/bartart3.jpg "BartArt")
 ![Board wiring](https://github.com/neilliner/BartArt-Arduino/blob/master/arduino_firmware_and_wiring/bartart-wiring.jpg "Board wiring")
 
 ## No Arduino Version
