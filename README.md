@@ -16,5 +16,9 @@ HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 6. Open your browser and type `localhost:3000` then hit return.
 7. Enjoy!
 
+## No Arduino Version
+To make it easier to experience the project, I made a version that doesn't need to connect to Arduino. Check it out.
+[No Arduino Version](#)
+
 ### Special Thanks
 [Mark Hellar](https://github.com/mhellar)
