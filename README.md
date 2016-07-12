@@ -24,6 +24,8 @@ HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 
 ![BartArt](http://www.neilsite.com/bandpay/sites/default/files/bartart3.jpg "BartArt")
 
+## Wiring
+
 ![Board wiring](https://github.com/neilliner/BartArt-Arduino/blob/master/arduino_firmware_and_wiring/bartart-wiring.jpg "Board wiring")
 
 ## No Arduino Version
