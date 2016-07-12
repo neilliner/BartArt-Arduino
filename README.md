@@ -12,7 +12,7 @@ HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 2. Wire the breadboard to Arduino UNO as pictured.
 3. Connect the board to your computer.
 4. Install the firmware using the .ino file provided.
-5. In the project folder, run the app.js file by type `$ node app.js` in the terminal.
+5. In the project folder, run the app.js file by type `$ node app.js` in the terminal(assumed you have node.js installed).
 6. Open your browser and type `localhost:3000` then hit return.
 7. Enjoy!
 
