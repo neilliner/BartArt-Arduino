@@ -7,5 +7,14 @@ Inspired by Camille Utterback’s art work, Entangled, and Alan Rath’s Four Ey
 
 HTML, CSS, JavaScript, P5.js, Node.js, Arduino, BART API
 
+## Instructions
+1. Download everything from this Repo.
+2. Wire the breadboard to Arduino UNO as pictured.
+3. Connect the board to your computer.
+4. Install the firmware using the .ino file provided.
+5. In the project folder, run the app.js file by type `$ node app.js` in the terminal.
+6. Open your browser and type `localhost:3000` then hit return.
+7. Enjoy!
+
 ### Special Thanks
 [Mark Hellar](https://github.com/mhellar)
